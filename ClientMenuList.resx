@@ -1806,31 +1806,7 @@
         GVf+reIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnBeverages.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx
-        K0VRHMevRMr2VptJ/g6xWxiUUgwGgwiZlMUrycQsWRTFJFmUzWSwyaAsokgGAz7fc98v9x738s47d/Kp
-        T53zu7ff953e77yXBDCOj/iCsypUyTR+4B5u4SeuYCVMoppvY5sKMI8KWXO7CIqaG9EhvzU3Wg5pprkR
-        HBLS3Gg6pJXmxp8hMc2N0pAqmhs/QsZQzTcxtrmxjApxN/4GD7Cq5oZu/LMW13iOg9inQiS9OIDH+KDC
-        ECpJR3rDdozhDq3XqAqiCxdQDzpViOAJ69jtdhkmsChA341+Oe9Rz6WOvoEd6KOApXSZpyxA/wOasnWc
-        ariK7ziHPsEBO3iRLnMc4km6zBEcsI+n6TLHLmr6fP5xwAgqoOZ234QEaKo0/zNu59GDr3iGuhPmFZYF
-        3GL23SPUdPVjIbril6hjZtWI+iyi/54+zDA2SJIvqXF6UZ5QaDwAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnSnacks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx
-        K0VRHMevRMr2VptJ/g6xWxiUUgwGgwiZlMUrycQsWRTFJFmUzWSwyaAsokgGAz7fc98v9x738s47d/Kp
-        T53zu7ff953e77yXBDCOj/iCsypUyTR+4B5u4SeuYCVMoppvY5sKMI8KWXO7CIqaG9EhvzU3Wg5pprkR
-        HBLS3Gg6pJXmxp8hMc2N0pAqmhs/QsZQzTcxtrmxjApxN/4GD7Cq5oZu/LMW13iOg9inQiS9OIDH+KDC
-        ECpJR3rDdozhDq3XqAqiCxdQDzpViOAJ69jtdhkmsChA341+Oe9Rz6WOvoEd6KOApXSZpyxA/wOasnWc
-        ariK7ziHPsEBO3iRLnMc4km6zBEcsI+n6TLHLmr6fP5xwAgqoOZ234QEaKo0/zNu59GDr3iGuhPmFZYF
-        3GL23SPUdPVjIbril6hjZtWI+iyi/54+zDA2SJIvqXF6UZ5QaDwAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnRice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnStudentMeal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
         gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx
@@ -1854,7 +1830,31 @@
         3GL23SPUdPVjIbril6hjZtWI+iyi/54+zDA2SJIvqXF6UZ5QaDwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnStudentMeal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnRice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx
+        K0VRHMevRMr2VptJ/g6xWxiUUgwGgwiZlMUrycQsWRTFJFmUzWSwyaAsokgGAz7fc98v9x738s47d/Kp
+        T53zu7ff953e77yXBDCOj/iCsypUyTR+4B5u4SeuYCVMoppvY5sKMI8KWXO7CIqaG9EhvzU3Wg5pprkR
+        HBLS3Gg6pJXmxp8hMc2N0pAqmhs/QsZQzTcxtrmxjApxN/4GD7Cq5oZu/LMW13iOg9inQiS9OIDH+KDC
+        ECpJR3rDdozhDq3XqAqiCxdQDzpViOAJ69jtdhkmsChA341+Oe9Rz6WOvoEd6KOApXSZpyxA/wOasnWc
+        ariK7ziHPsEBO3iRLnMc4km6zBEcsI+n6TLHLmr6fP5xwAgqoOZ234QEaKo0/zNu59GDr3iGuhPmFZYF
+        3GL23SPUdPVjIbril6hjZtWI+iyi/54+zDA2SJIvqXF6UZ5QaDwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSnacks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx
+        K0VRHMevRMr2VptJ/g6xWxiUUgwGgwiZlMUrycQsWRTFJFmUzWSwyaAsokgGAz7fc98v9x738s47d/Kp
+        T53zu7ff953e77yXBDCOj/iCsypUyTR+4B5u4SeuYCVMoppvY5sKMI8KWXO7CIqaG9EhvzU3Wg5pprkR
+        HBLS3Gg6pJXmxp8hMc2N0pAqmhs/QsZQzTcxtrmxjApxN/4GD7Cq5oZu/LMW13iOg9inQiS9OIDH+KDC
+        ECpJR3rDdozhDq3XqAqiCxdQDzpViOAJ69jtdhkmsChA341+Oe9Rz6WOvoEd6KOApXSZpyxA/wOasnWc
+        ariK7ziHPsEBO3iRLnMc4km6zBEcsI+n6TLHLmr6fP5xwAgqoOZ234QEaKo0/zNu59GDr3iGuhPmFZYF
+        3GL23SPUdPVjIbril6hjZtWI+iyi/54+zDA2SJIvqXF6UZ5QaDwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnBeverages.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
         gwAAAIMBYu+7WgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFTSURBVEhL3ZWx

@@ -42,7 +42,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(363, 203);
+            label1.Location = new Point(375, 203);
             label1.Name = "label1";
             label1.Size = new Size(324, 55);
             label1.TabIndex = 4;
@@ -52,7 +52,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = Properties.Resources.mapua_logo;
-            pictureBox2.Location = new Point(271, 23);
+            pictureBox2.Location = new Point(283, 23);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(222, 199);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -63,7 +63,7 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = Properties.Resources.logo_complete;
-            pictureBox1.Location = new Point(476, -4);
+            pictureBox1.Location = new Point(488, -4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(323, 282);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
