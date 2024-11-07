@@ -193,6 +193,16 @@ namespace Quick_Byte.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_gif1 {
+            get {
+                object obj = ResourceManager.GetObject("logo_gif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mapua_logo {
             get {
                 object obj = ResourceManager.GetObject("mapua_logo", resourceCulture);

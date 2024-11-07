@@ -23,7 +23,7 @@ namespace Quick_Byte
 
                 Panel selectedItemPanel = new Panel
                 {
-                    Size = new Size(300, 100),
+                    Size = new Size(200, 100),
                     BorderStyle = BorderStyle.FixedSingle,
                     Margin = new Padding(5)
                 };
@@ -138,7 +138,7 @@ namespace Quick_Byte
 
                 Panel itemPanel = new Panel
                 {
-                    Size = new Size(300, 270),
+                    Size = new Size(200, 250),
                     BorderStyle = BorderStyle.FixedSingle,
                     Margin = new Padding(10)
                 };
@@ -169,15 +169,21 @@ namespace Quick_Byte
                     TextAlign = ContentAlignment.MiddleCenter
                 };
 
+                // Add controls to the panel
                 itemPanel.Controls.Add(pictureBox);
                 itemPanel.Controls.Add(lblName);
                 itemPanel.Controls.Add(lblPrice);
 
+                // Attach Click event to panel and all child controls
                 itemPanel.Click += (s, e) => AddItemToSelection(itemId, itemName, price);
+                pictureBox.Click += (s, e) => AddItemToSelection(itemId, itemName, price);
+                lblName.Click += (s, e) => AddItemToSelection(itemId, itemName, price);
+                lblPrice.Click += (s, e) => AddItemToSelection(itemId, itemName, price);
 
                 flowLayoutMenuList.Controls.Add(itemPanel);
             }
         }
+
 
         private void btnStudentMeal_Click(object sender, EventArgs e)
         {

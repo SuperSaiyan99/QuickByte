@@ -58,11 +58,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial Rounded MT Bold", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(819, 150);
+            label1.Location = new Point(500, 114);
             label1.Name = "label1";
-            label1.Size = new Size(236, 40);
+            label1.Size = new Size(271, 46);
             label1.TabIndex = 7;
             label1.Text = "QUICK BYTE";
             // 
@@ -70,9 +70,9 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(799, 29);
+            pictureBox2.Location = new Point(500, 22);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(114, 137);
+            pictureBox2.Size = new Size(96, 107);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
@@ -81,9 +81,9 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(919, 0);
+            pictureBox1.Location = new Point(602, -12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(173, 190);
+            pictureBox1.Size = new Size(160, 172);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
@@ -104,7 +104,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(424, 1076);
+            panel1.Size = new Size(323, 1000);
             panel1.TabIndex = 10;
             // 
             // button1
@@ -208,9 +208,9 @@
             btnViewOrder.BackColor = Color.Transparent;
             btnViewOrder.FlatAppearance.BorderSize = 0;
             btnViewOrder.ForeColor = SystemColors.ActiveCaptionText;
-            btnViewOrder.Location = new Point(46, 853);
+            btnViewOrder.Location = new Point(39, 830);
             btnViewOrder.Name = "btnViewOrder";
-            btnViewOrder.Size = new Size(326, 110);
+            btnViewOrder.Size = new Size(233, 84);
             btnViewOrder.TabIndex = 16;
             btnViewOrder.Text = "View Order";
             btnViewOrder.UseVisualStyleBackColor = false;
@@ -220,7 +220,7 @@
             // textTotalSum
             // 
             textTotalSum.Enabled = false;
-            textTotalSum.Location = new Point(74, 763);
+            textTotalSum.Location = new Point(29, 766);
             textTotalSum.Name = "textTotalSum";
             textTotalSum.Size = new Size(260, 23);
             textTotalSum.TabIndex = 15;
@@ -230,7 +230,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Arial Rounded MT Bold", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Navy;
-            label3.Location = new Point(159, 696);
+            label3.Location = new Point(114, 699);
             label3.Name = "label3";
             label3.Size = new Size(95, 37);
             label3.TabIndex = 14;
@@ -240,9 +240,9 @@
             // 
             pictureBox3.BackColor = Color.White;
             pictureBox3.Image = Properties.Resources.verde_logo;
-            pictureBox3.Location = new Point(107, 61);
+            pictureBox3.Location = new Point(57, 89);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(187, 198);
+            pictureBox3.Size = new Size(147, 155);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
@@ -251,8 +251,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Rounded MT Bold", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.Navy;
-            label2.Location = new Point(850, 235);
+            label2.ForeColor = Color.LightCoral;
+            label2.Location = new Point(528, 188);
             label2.Name = "label2";
             label2.Size = new Size(221, 40);
             label2.TabIndex = 12;
@@ -262,9 +262,9 @@
             // 
             flowLayoutMenuList.AutoScroll = true;
             flowLayoutMenuList.BorderStyle = BorderStyle.FixedSingle;
-            flowLayoutMenuList.Location = new Point(495, 293);
+            flowLayoutMenuList.Location = new Point(363, 257);
             flowLayoutMenuList.Name = "flowLayoutMenuList";
-            flowLayoutMenuList.Size = new Size(910, 783);
+            flowLayoutMenuList.Size = new Size(565, 693);
             flowLayoutMenuList.TabIndex = 13;
             // 
             // panel2
@@ -273,9 +273,9 @@
             panel2.Controls.Add(flowLayoutItemList);
             panel2.Controls.Add(label4);
             panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(1427, 0);
+            panel2.Location = new Point(961, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(382, 1076);
+            panel2.Size = new Size(226, 1000);
             panel2.TabIndex = 14;
             // 
             // flowLayoutItemList
@@ -302,7 +302,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1809, 1076);
+            ClientSize = new Size(1187, 1000);
             Controls.Add(panel2);
             Controls.Add(flowLayoutMenuList);
             Controls.Add(label2);
@@ -314,7 +314,6 @@
             Name = "ClientMenuList";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ClientMenuList";
-            WindowState = FormWindowState.Maximized;
             Load += ClientMenuList_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

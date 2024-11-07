@@ -37,7 +37,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = SystemColors.Window;
-            pictureBox1.Image = Properties.Resources.logo_gif;
+            pictureBox1.Image = Properties.Resources.logo_gif1;
             pictureBox1.Location = new Point(114, 75);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(477, 359);

@@ -35,8 +35,10 @@
             txtPassword = new TextBox();
             txtUsername = new TextBox();
             panel2 = new Panel();
+            button1 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -108,11 +110,28 @@
             // 
             panel2.BackgroundImage = Properties.Resources.leftside_panel_admin_design;
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
+            panel2.Controls.Add(button1);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(355, 750);
             panel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Black;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Image = Properties.Resources.icons8_back_64;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(47, 23);
+            button1.Name = "button1";
+            button1.Size = new Size(69, 52);
+            button1.TabIndex = 23;
+            button1.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // AdminPanel
             // 
@@ -124,11 +143,13 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminPanel";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminPanel";
             Load += AdminPanel_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -141,5 +162,6 @@
         private TextBox txtUsername;
         private Panel panel2;
         private Label label1;
+        private Button button1;
     }
 }

@@ -47,7 +47,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(740, 163);
+            label1.Location = new Point(424, 163);
             label1.Name = "label1";
             label1.Size = new Size(324, 55);
             label1.TabIndex = 13;
@@ -57,7 +57,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(752, 41);
+            pictureBox2.Location = new Point(436, 41);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(114, 137);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -68,7 +68,7 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(872, 12);
+            pictureBox1.Location = new Point(556, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(173, 190);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -80,7 +80,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Arial Rounded MT Bold", 42F);
             label2.ForeColor = Color.LightCoral;
-            label2.Location = new Point(571, 248);
+            label2.Location = new Point(256, 240);
             label2.Name = "label2";
             label2.Size = new Size(667, 65);
             label2.TabIndex = 16;
@@ -95,7 +95,7 @@
             btnCash.ForeColor = SystemColors.ControlLightLight;
             btnCash.Image = Properties.Resources.icons8_wallet_100;
             btnCash.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCash.Location = new Point(708, 369);
+            btnCash.Location = new Point(392, 328);
             btnCash.Name = "btnCash";
             btnCash.Size = new Size(356, 130);
             btnCash.TabIndex = 17;
@@ -113,7 +113,7 @@
             btcnCreditCard.ForeColor = SystemColors.ControlLightLight;
             btcnCreditCard.Image = Properties.Resources.icons8_credit_card_64;
             btcnCreditCard.ImageAlign = ContentAlignment.MiddleLeft;
-            btcnCreditCard.Location = new Point(708, 523);
+            btcnCreditCard.Location = new Point(392, 482);
             btcnCreditCard.Name = "btcnCreditCard";
             btcnCreditCard.Size = new Size(356, 130);
             btcnCreditCard.TabIndex = 18;
@@ -131,7 +131,7 @@
             btnGcash.ForeColor = SystemColors.ControlLightLight;
             btnGcash.Image = Properties.Resources.icons8_gcash_100;
             btnGcash.ImageAlign = ContentAlignment.MiddleLeft;
-            btnGcash.Location = new Point(708, 682);
+            btnGcash.Location = new Point(392, 641);
             btnGcash.Name = "btnGcash";
             btnGcash.Size = new Size(356, 130);
             btnGcash.TabIndex = 19;
@@ -146,7 +146,7 @@
             btnReceipt.FlatAppearance.BorderSize = 0;
             btnReceipt.FlatStyle = FlatStyle.Flat;
             btnReceipt.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnReceipt.Location = new Point(913, 881);
+            btnReceipt.Location = new Point(611, 820);
             btnReceipt.Name = "btnReceipt";
             btnReceipt.Size = new Size(398, 127);
             btnReceipt.TabIndex = 22;
@@ -161,7 +161,7 @@
             btnCancel.FlatAppearance.BorderSize = 2;
             btnCancel.FlatStyle = FlatStyle.Flat;
             btnCancel.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancel.Location = new Point(435, 881);
+            btnCancel.Location = new Point(133, 820);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(398, 127);
             btnCancel.TabIndex = 21;
@@ -174,7 +174,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1724, 1089);
+            ClientSize = new Size(1187, 1000);
             Controls.Add(btnReceipt);
             Controls.Add(btnCancel);
             Controls.Add(btnGcash);
@@ -188,7 +188,6 @@
             Name = "ClientPaymentForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "ClientPaymentForm";
-            WindowState = FormWindowState.Maximized;
             Load += ClientPaymentForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

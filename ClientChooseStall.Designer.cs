@@ -32,6 +32,7 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             flowLayoutStall = new FlowLayoutPanel();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -39,11 +40,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(707, 219);
+            label1.Location = new Point(363, 203);
             label1.Name = "label1";
-            label1.Size = new Size(431, 75);
+            label1.Size = new Size(324, 55);
             label1.TabIndex = 4;
             label1.Text = "QUICK BYTE";
             // 
@@ -51,7 +52,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = Properties.Resources.mapua_logo;
-            pictureBox2.Location = new Point(650, 31);
+            pictureBox2.Location = new Point(271, 23);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(222, 199);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -62,7 +63,7 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = Properties.Resources.logo_complete;
-            pictureBox1.Location = new Point(897, -3);
+            pictureBox1.Location = new Point(476, -4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(323, 282);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -72,17 +73,29 @@
             // flowLayoutStall
             // 
             flowLayoutStall.AutoScroll = true;
-            flowLayoutStall.Location = new Point(170, 327);
+            flowLayoutStall.Location = new Point(145, 419);
             flowLayoutStall.Name = "flowLayoutStall";
-            flowLayoutStall.Size = new Size(1492, 646);
+            flowLayoutStall.Size = new Size(859, 581);
             flowLayoutStall.TabIndex = 7;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Rounded MT Bold", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.LightCoral;
+            label2.Location = new Point(271, 313);
+            label2.Name = "label2";
+            label2.Size = new Size(585, 75);
+            label2.TabIndex = 8;
+            label2.Text = "Choose Your Stall";
             // 
             // ClientChooseStall
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1748, 975);
+            ClientSize = new Size(1118, 1000);
+            Controls.Add(label2);
             Controls.Add(flowLayoutStall);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
@@ -91,7 +104,6 @@
             Name = "ClientChooseStall";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ClientChooseStall";
-            WindowState = FormWindowState.Maximized;
             Load += ClientChooseStall_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -105,5 +117,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private FlowLayoutPanel flowLayoutStall;
+        private Label label2;
     }
 }

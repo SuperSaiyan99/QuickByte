@@ -46,11 +46,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial Rounded MT Bold", 45F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(716, 171);
+            label1.Location = new Point(342, 160);
             label1.Name = "label1";
-            label1.Size = new Size(324, 55);
+            label1.Size = new Size(405, 70);
             label1.TabIndex = 10;
             label1.Text = "QUICK BYTE";
             // 
@@ -58,7 +58,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(729, 41);
+            pictureBox2.Location = new Point(395, 41);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(114, 137);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -69,7 +69,7 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(849, 12);
+            pictureBox1.Location = new Point(515, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(173, 190);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -79,11 +79,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 42F);
+            label2.Font = new Font("Arial Rounded MT Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.LightCoral;
-            label2.Location = new Point(636, 251);
+            label2.Location = new Point(351, 251);
             label2.Name = "label2";
-            label2.Size = new Size(463, 65);
+            label2.Size = new Size(396, 55);
             label2.TabIndex = 13;
             label2.Text = "Order Summary";
             // 
@@ -92,7 +92,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Arial Rounded MT Bold", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.LightCoral;
-            label3.Location = new Point(296, 313);
+            label3.Location = new Point(68, 325);
             label3.Name = "label3";
             label3.Size = new Size(127, 43);
             label3.TabIndex = 14;
@@ -102,9 +102,9 @@
             // 
             flowLayoutOrderSummary.AutoScroll = true;
             flowLayoutOrderSummary.BorderStyle = BorderStyle.FixedSingle;
-            flowLayoutOrderSummary.Location = new Point(285, 368);
+            flowLayoutOrderSummary.Location = new Point(68, 390);
             flowLayoutOrderSummary.Name = "flowLayoutOrderSummary";
-            flowLayoutOrderSummary.Size = new Size(1174, 307);
+            flowLayoutOrderSummary.Size = new Size(972, 307);
             flowLayoutOrderSummary.TabIndex = 15;
             // 
             // label4
@@ -135,7 +135,7 @@
             btnCancel.FlatAppearance.BorderSize = 2;
             btnCancel.FlatStyle = FlatStyle.Flat;
             btnCancel.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancel.Location = new Point(374, 825);
+            btnCancel.Location = new Point(96, 756);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(398, 127);
             btnCancel.TabIndex = 19;
@@ -149,7 +149,7 @@
             btnProceed.FlatAppearance.BorderSize = 0;
             btnProceed.FlatStyle = FlatStyle.Flat;
             btnProceed.Font = new Font("Arial Narrow", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnProceed.Location = new Point(869, 825);
+            btnProceed.Location = new Point(591, 756);
             btnProceed.Name = "btnProceed";
             btnProceed.Size = new Size(398, 127);
             btnProceed.TabIndex = 20;
@@ -163,7 +163,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1746, 977);
+            ClientSize = new Size(1187, 1000);
             Controls.Add(btnProceed);
             Controls.Add(btnCancel);
             Controls.Add(lblTotalAmount);
@@ -178,7 +178,6 @@
             Name = "ClientOrderSummaryForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ClientOrderSummaryForm";
-            WindowState = FormWindowState.Maximized;
             Load += ClientOrderSummaryForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -44,7 +44,7 @@ namespace Quick_Byte
 
                 Panel panel = new Panel
                 {
-                    Size = new Size(250, 300),
+                    Size = new Size(200, 250),
                     BorderStyle = BorderStyle.FixedSingle,
                     BackColor = Color.White,
                     Margin = new Padding(20)

@@ -111,28 +111,35 @@ namespace Quick_Byte
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            
+
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Please enter both username and password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-          
+
             if (AuthenticateUser(username, password))
             {
-               
+
                 MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-              
+
                 AdminDashboard mainForm = new AdminDashboard();
                 mainForm.Show();
-                this.Hide(); 
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WelcomeForm wc = new WelcomeForm();
+            wc.Show();
+            this.Close();
         }
     }
 }
