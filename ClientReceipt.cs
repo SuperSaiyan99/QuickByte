@@ -66,25 +66,14 @@ namespace Quick_Byte
                     Font = new Font("Arial", 10)
                 };
 
-                // Price label, right-aligned
-                Label lblPrice = new Label
-                {
-                    Text = $"PHP {totalPrice:F2}",
-                    AutoSize = false,
-                    Width = 70,
-                    TextAlign = ContentAlignment.MiddleRight,
-                    Font = new Font("Arial", 10)
-                };
 
                 // Add the labels to the item panel
                 itemPanel.Controls.Add(lblQuantity);
                 itemPanel.Controls.Add(lblName);
-                itemPanel.Controls.Add(lblPrice);
 
                 // Adjust positioning within item panel
                 lblQuantity.Location = new Point(5, 0);
                 lblName.Location = new Point(40, 0);
-                lblPrice.Location = new Point(220, 0);
 
                 // Add the item panel to the flow layout
                 flowLayoutReceipt.Controls.Add(itemPanel);
